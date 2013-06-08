@@ -1,4 +1,5 @@
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
+goserve
 *.o
 *.a
 *.so
@@ -20,3 +21,47 @@ _cgo_export.*
 _testmain.go
 
 *.exe
+
+#################################################
+## Python section
+*.py[cod]
+*.swp
+
+# Docs
+docs/_build
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+cover
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevprojecto
+.idea
